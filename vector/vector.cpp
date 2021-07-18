@@ -13,11 +13,11 @@ void adicionaUmInteiro(int n, std::vector<int> &vetor){
 
 int main(){
     // Construtores
-    std::vector<int>         vetorInt;           // Vetores de int vazios
+    std::vector<int>         vetorInt;       // Vetores de int vazios
     std::vector<std::string> vetorString;    // Vetor vazio de string
 
     // Inserindo um inteiro
-    vetorInt.push_back (10);
+    vetorInt.push_back(10);
 
     vetorString.push_back("Um vetor string");
 
@@ -35,7 +35,6 @@ int main(){
     std::cout << " O inteiro adicionado foi :";
     std::cout << vetorInt[1] << std::endl;
 
-
-
+    return 0;
 }
 
